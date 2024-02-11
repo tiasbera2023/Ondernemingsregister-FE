@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <main id="footer">
        <div className="container">
-        <div className="p-5 d-flex flex-column justify-content-end"> 
+        <div className="d-flex flex-column justify-content-end py-5"> 
         <div className="d-flex py-2 align-items-center gap-2">
        <Image width={54} height={54} src={logo}/>
        <span className="logo-text">Ondernemingsregister</span>
