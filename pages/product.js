@@ -13,7 +13,7 @@ export default function product() {
                     <h3>ARR Consultancy B.V.</h3><span className="search-tag">hoofdvestiging</span>
                     <p>000043714102 · 76887987 · <span className="text-dark">Utrecht</span></p>
                     </div>
-        <div className="container product">
+        <div className="container custom-container product">
             <p className="text-blue">Selecteer een product</p>
 
             <div className="product-card-container">
@@ -42,7 +42,7 @@ export default function product() {
               </div>
              </div>
 
-             <div className="product-amount" style={{marginTop:"120px"}}><span>€ 28,80</span>
+             <div className="product-amount product-2" ><span>€ 28,80</span>
              <div id="img-icon"><Image src={arrowIcon}/></div></div>
                 </div>
                 <div></div>

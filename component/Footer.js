@@ -10,7 +10,7 @@ export default function Footer() {
        <Image width={54} height={54} src={logo}/>
        <span className="logo-text">Ondernemingsregister</span>
         </div>
-        <div className="d-flex mt-5 gap-5">
+        <div className="d-flex flex-column flex-md-row mt-5 gap-4">
             <span className="text-white">Algemene voorwaarden</span>
             <span className="text-white">Privacystatement</span>
             <span className="text-white">Disclaimer</span>

@@ -1,4 +1,4 @@
-import Head from "next/head";
+ import Head from "next/head";
 import { useState } from "react";
 import arrowIconBlue from "../public/assest/images/arrow-icon-blue.svg"
 import location from "../public/assest/images/location.png"
@@ -18,7 +18,7 @@ export default function Contact() {
         <p>Mijn Uittreksels is een intermediair voor het aanvragen van uittreksels en andere KVK producten maar is geen onderdeel van de KVK.</p>
         </div>
     </div>
-        <div className="container">
+        <div className="container mx-auto custom-container">
             <div id="contact">
             <div className="contact-card-box">
             <div className="contact-card">
